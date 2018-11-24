@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Simple Slider</title>
+</head>
+<body>
+	<header>
+		<button id="reg" onclick="showModalReg()">registration</button>
+		<button id="login" onclick="showModalLogin()">Log in</button>
+	</header>
+	<div class="container">
+		<button onclick="prev()" class="prev">Prev</button>
+		<img id="slider" src="https://ic.pics.livejournal.com/postav/49386233/1191363/1191363_900.jpg" alt="Mountain_landscape_first">
+		<button onclick="next()" class="next">Next</button>
+	</div>
+	<footer><span>&#169</span>Сергей Гарибзянов</footer>
+
+
+<!-- Модальное окно -->
+
+		<div id="modal">
+			<div class="form">
+
+				<div class="form__item">
+					<label>Электронная почта:</label>
+					<div class="form__item__content">
+						<input type="text" placeholder="Введите адрес эл. почты" title="Пример заполнения: mail@site.ru" id="email">
+					</div>
+				</div>
+
+			
+				<div class="form__item">
+					<label>Пароль:</label>
+					<div class="form__item__content">
+						<input type="password" placeholder="Введите пароль" title="Поле должно быть заполнено" id="first_name">
+					</div>
+				</div>
+
+				<div class="form__item">
+					<label>Повторите пароль:</label>
+					<div class="form__item__content">
+						<input type="password" placeholder="Введите пароль" title="Поле должно быть заполнено" id="second_name">
+					</div>
+				</div>
+							
+				<div class="form__item">
+					<div class="form__item__content">
+						<button id="submit">Отправить</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+<script src="script.js"></script>
+</body>
+</html>
