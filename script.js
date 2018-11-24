@@ -60,7 +60,7 @@ function showModalReg() {
 // Добавить плавности в модалку. 
 
 
-var Sergei = {
+/* var Sergei = {
 	profession: 'web-developer',
 	age: 29,
 	goodman: true};
@@ -97,4 +97,4 @@ let isChecked = false,
 console.log(isChecked || !isClose);
 
 let a = 8;
-console.log(a);
+console.log(a); */
