@@ -60,7 +60,7 @@ function showModalReg() {
 // Добавить плавности в модалку. 
 
 
-/* var Sergei = {
+var Sergei = {
 	profession: 'web-developer',
 	age: 29,
 	goodman: true};
@@ -72,12 +72,12 @@ confirm("Sergei is goodman & this yesis " + Sergei.goodman + '.');
 var Sergei = [29,'web-developer',true];
 confirm('Sergei is ' + Sergei[1] + '!');
 confirm('Sergei is ' + Sergei[0] + ' years old.');
-confirm("Sergei is goodman & this is " + Sergei[2] + '.'); */
+confirm("Sergei is goodman & this is " + Sergei[2] + '.');
 
-/* let access = prompt('Вам есть 18 лет?', 'Да');
+let access = prompt('Вам есть 18 лет?', 'Да');
 	{
 		console.log(typeof(undefined));
-	} */
+	}
 
 
 let incr = 0,
